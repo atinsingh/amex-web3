@@ -3,6 +3,7 @@ package co.pragra.amex.bankapp.api;
 import co.pragra.amex.bankapp.entity.Account;
 import co.pragra.amex.bankapp.service.AccountService;
 import co.pragra.amex.bankapp.service.CustomerService;
+import io.swagger.annotations.Api;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
